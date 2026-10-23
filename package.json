@@ -1,6 +1,6 @@
 {
   "name": "ai-pdf-chatbot-langchain",
-  "description": "AI PDF Chatbot template based on the book Learning LangChain (O'Reilly)",
+  "description": "AI PDF Chatbot template based on Learning LangChain",
   "private": true,
   "packageManager": "yarn@1.22.19",
   "version": "0.0.1",
@@ -9,17 +9,16 @@
   "workspaces": [
     "backend",
     "frontend"
-  ]
-
-    "scripts": {
-      "build": "yarn run turbo:command build",
-      "turbo:command": "yarn turbo",
-      "lint": "yarn run turbo:command lint",
-      "lint:fix": "yarn run turbo:command lint:fix", 
-      "format": "yarn run turbo:command format",
-      "format:check": "yarn run turbo:command format:check"
-    },
-    "devDependencies": {
-      "turbo": "latest"
-    }
+  ],
+  "scripts": {
+    "build": "yarn run turbocommand build",
+    "turbocommand": "yarn turbo",
+    "lint": "yarn run turbocommand lint",
+    "lint:fix": "yarn run turbocommand lint:fix",
+    "format": "yarn run turbocommand format",
+    "format:check": "yarn run turbocommand format:check"
+  },
+  "devDependencies": {
+    "turbo": "latest"
   }
+}
