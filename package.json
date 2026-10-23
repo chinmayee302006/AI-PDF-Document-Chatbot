@@ -10,7 +10,7 @@
     "backend",
     "frontend"
   ]
-}
+
     "scripts": {
       "build": "yarn run turbo:command build",
       "turbo:command": "yarn turbo",
